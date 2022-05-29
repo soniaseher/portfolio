@@ -1,4 +1,4 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Elsie+Swash+Caps:wght@400;900&family=Gilda+Display&family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap'); 
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
 /* @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
@@ -15,7 +15,10 @@
 
 }
 .header_area.navbar_fixed .main_menu{
-  background: #30475E !important;
+  background: #011310 !important;
+}
+.home_banner_area .banner_inner .banner_content .media{
+  width: 67%;
 }
 span.scrol-i {
   color: white;
@@ -48,10 +51,10 @@ a {
 body {
   line-height: 26px;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   color: #777777;
-/* background-color: #30475E; */
+background-color: #f3f3f3;
  }
 .contact-data{
   margin-bottom: 50px;
@@ -64,10 +67,10 @@ body {
   transition: 0s ease-in-out; */
 }
 .header_area .nav-link:hover{
- color: #F05454 !important;
+ color: #00bfa5 !important;
 }
 .main_title p{
-  color: black !important;
+  color: #343434 !important;
 }
 .vertical-t{
   writing-mode: vertical-lr;
@@ -83,7 +86,7 @@ body {
   user-select: none;
 }
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Sarabun', sans-serif;
+ font-family: 'DM Serif Display', serif;
   font-weight: 600; }
 
 button:focus {
@@ -111,16 +114,16 @@ button:focus {
 }
 .banner-text{
   font-size: 75px !important;
-  color: white;
-  font-weight: 300;
-  text-transform: uppercase;
+  color: #00bfa5;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 .banner-text a{
-  color: #F05454 !important;
+  color: #00bfa5 !important;
 }
 .sub-title{
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 34px;
   font-size: 30px;
@@ -128,7 +131,7 @@ button:focus {
 }
 .header-t h6{
    font-size: 70px;
-  font-family: 'Sarabun', sans-serif;
+  font-family: 'DM Serif Display', serif;
    text-transform: capitalize;
    letter-spacing: 2.1px;
    font-weight: normal;
@@ -136,41 +139,41 @@ button:focus {
    color: #fff;
 }
 .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a{
-  color: #30475E !important;
+  color: #011310 !important;
 }
 .main_title h2{
   color: #222831 !important;
 }
 .social_widget .list li a{
-  color: #69afc7 !important;
+  color: #00bfa5 !important;
   font-size: 27px !important;
   transition: all 300ms linear 0s !important;
   margin: 7px !important;
 }
 .main_title h1{
-  color: #222831 !important;
+  color: #fff !important;
 }
 .h_gallery_item .g_img_item:before{
-  background: #30475E !important;
+  background: #011310 !important;
 }
 .footer_area{
-  background: #30475E !important;
+  background: #011310 !important;
 }
 .wel_item i{
   font-size: 24px !important;
-   /* background: #85a1bd !important; */
+   background: #00bfa5 !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   /* background: linear-gradient(to right, #766dff 0%, #86e7ff 70%); */
 }
 .mytabs_area{
-  background: #ddd !important;
+  background: #011310 !important;
 }
 .tools_expert .skill_main .skill_item .progress .progress-bar{
-  background: #30475E !important;
+  background: #011310 !important;
 }
 .home_banner_area{
-  background: #30475E !important;
+  background: #011310 !important;
   margin-bottom: 0px !important;
 }
 .header-t h3{
@@ -183,9 +186,12 @@ button:focus {
     line-height: 200px;
 }
 .header-t h4{
-    color: #fff;
+       color: #fff;
     letter-spacing: 10px;
     word-spacing: 12px;
+    margin-bottom: 17px;
+    border-bottom: 2px dashed rgb(6, 64, 56);
+    padding-bottom: 15px;
 }
 .gallery_f_inner {
   height: 100% !important;
@@ -224,18 +230,18 @@ button:focus {
 .main_title {
   text-align: center;
   max-width: 670px;
-  margin: 0px auto 75px; }
+  margin: 0px auto 35px; }
   .main_title h2 {
-   font-family: 'Sarabun', sans-serif;
+   font-family: 'DM Serif Display', serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 15px;
     text-transform: uppercase; }
   .main_title p {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    line-height: 26px;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
     color: #777777;
     margin-bottom: 0px; }
 
@@ -251,9 +257,9 @@ button:focus {
   z-index: 99;
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
-    background: #30475E;
+    background: #011310;
     padding: 0px;
-    border-bottom: 0px solid #F05454;
+    border-bottom: 0px solid #00bfa5;
     border-radius: 0px; }
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
@@ -374,7 +380,7 @@ button:focus {
     display: inline-block;
     font-size: 12px;
     margin-right: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: normal;
     color: #777777;
     transition: all 300ms linear 0s; }
@@ -388,7 +394,7 @@ button:focus {
     border-radius: 3px;
     line-height: 28px;
     font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
@@ -471,7 +477,7 @@ button:focus {
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
         font-weight: bold;
-       font-family: 'Sarabun', sans-serif;
+       font-family: 'DM Serif Display', serif;
         line-height: 66px;
         margin-bottom: 15px;
         text-transform: uppercase; }
@@ -511,13 +517,13 @@ button:focus {
     .banner_area .banner_inner .banner_content h2 {
       color: #222222;
       font-size: 48px;
-     font-family: 'Sarabun', sans-serif;
+     font-family: 'DM Serif Display', serif;
       margin-bottom: 0px;
       font-weight: bold; }
     .banner_area .banner_inner .banner_content .page_link a {
       font-size: 14px;
       color: #222222;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       margin-right: 32px;
       position: relative; }
       .banner_area .banner_inner .banner_content .page_link a:before {
@@ -547,7 +553,7 @@ button:focus {
   margin-bottom: 30px; }
   .l_blog_item .date {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: normal;
     color: #777777;
     margin-top: 20px;
@@ -1147,27 +1153,27 @@ button:focus {
   box-shadow: none;
   padding: 0px 15px;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 300;
   color: #999999; }
   .reservation_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group .res_select {
@@ -1179,7 +1185,7 @@ button:focus {
   line-height: 36px; }
   .reservation_form .form-group .res_select .current {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group .res_select:after {
@@ -1233,7 +1239,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1284,7 +1290,7 @@ button:focus {
       text-align: center;
       color: #766dff;
       padding-bottom: 10px;
-      font-family: 'Montserrat', sans-serif; }
+      font-family: 'Inter', sans-serif; }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -2493,7 +2499,7 @@ h6 {
   background-size: 200% auto;
   padding: 0px 40px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -2513,7 +2519,7 @@ h6 {
   background: #f9f9ff;
   padding: 0px 45px;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 48px;
@@ -2536,7 +2542,7 @@ h6 {
   background: #766dff;
   padding: 0px 50px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 50px;
@@ -2556,7 +2562,7 @@ h6 {
   background: #f9f9ff;
   padding: 0px 35px;
   color: #222222;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   line-height: 34px;
@@ -2581,7 +2587,7 @@ h6 {
   display: inline-block;
   border-radius: 5px;
   font-size: 13px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   transition: all 300ms linear 0s; }
   .black_btn:hover {
@@ -2605,13 +2611,13 @@ h6 {
 
 .welcome_text h4 {
   color: #222222;
- font-family: 'Sarabun', sans-serif;
+ font-family: 'DM Serif Display', serif;
   font-size: 36px;
   margin-bottom: 18px;
   text-transform: uppercase; }
 .welcome_text p {
   max-width: 495px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-bottom: 40px; }
 
 .wel_item {
@@ -2632,7 +2638,7 @@ h6 {
     margin-top: 10px; }
   .wel_item p {
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #777777;
     margin-bottom: 0px; }
 
@@ -2645,7 +2651,7 @@ h6 {
     .tools_expert .skill_main .skill_item h4 {
       text-align: none;
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: 500;
       color: #222222;
       margin-bottom: 15px; }
@@ -2693,7 +2699,7 @@ h6 {
       font-size: 13px;
       font-weight: 500;
       color: #fff;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       border: 1px solid #9ab5f5;
       background: rgba(255, 255, 255, 0.1); }
       .tabs_inner .nav.nav-tabs li a.active {
@@ -2722,7 +2728,7 @@ h6 {
       width: 15px;
       border-radius: 50%;
       display: block;
-      background: rgb(245 69 69 / 28%);
+      background: rgb(6 64 56 / 18%);
       position: absolute;
       left: 46%;
       top: 30px;
@@ -2731,7 +2737,7 @@ h6 {
         content: '';
         height: 7px;
         width: 7px;
-        background: #F05454;
+        background: #00bfa5;
         border-radius: 50%;
         position: absolute;
         left: 52%;
@@ -2746,18 +2752,23 @@ h6 {
       left: -50px;
       font-weight: 600;
       text-transform: uppercase;
+      background: transparent;
+    text-align: center;
+    padding: 45px 70px;
+    border: 1px solid #00bfa5;
+    border-radius: 10px;
      }
       .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
-        color: #222831;
+        color: #00bfa5;
         margin-bottom: 0px;
-        padding-top: 20px; }
+        }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
-      color: #222831;
+      color: #00bfa5;
       font-size: 21px;
       text-transform: capitalize;
       margin-bottom: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
-      color: #3e3e3e;
+      color: #fff;
       margin-bottom: 0px; 
     
     }
@@ -2801,7 +2812,7 @@ h6 {
   .feature_item h4 {
     color: #222222;
     font-size: 21px;
-   font-family: 'Sarabun', sans-serif;
+   font-family: 'DM Serif Display', serif;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase; }
@@ -2834,7 +2845,7 @@ h6 {
 
 .personal_text h6 {
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2.1px;
   font-weight: normal;
@@ -2843,7 +2854,7 @@ h6 {
 .personal_text h4 {
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #222222; }
@@ -2853,7 +2864,7 @@ h6 {
   margin-bottom: 15px;
   color: #222222; }
 .personal_text p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   max-width: 540px;
   color: #777777;
   margin-bottom: 40px; }
@@ -2911,7 +2922,7 @@ h6 {
         margin-right: 0px; }
       .isotope_fillter .gallery_filter li a {
         font-size: 12px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 500;
         color: #222222;
         transition: all 300ms linear 0s;
@@ -3001,7 +3012,7 @@ h6 {
 .test_title h2 {
   color: #222222;
   font-size: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   margin-bottom: 12px; }
 .test_title p {
@@ -3036,13 +3047,13 @@ h6 {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-   font-family: 'Sarabun', sans-serif;
+   font-family: 'DM Serif Display', serif;
     margin-bottom: 0px; }
 
 .ab_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #777777;
   margin-bottom: 30px; }
   .ab_widget p a {
@@ -3055,7 +3066,7 @@ h6 {
   .news_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #777777;
     margin-bottom: 15px; }
   .news_widget .input-group input {
@@ -3067,28 +3078,28 @@ h6 {
     padding: 0px 15px;
     border: 1px solid #1e233b;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #cccccc;
     outline: none;
     box-shadow: none; }
     .news_widget .input-group input.placeholder {
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input:-moz-placeholder {
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input::-moz-placeholder {
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: normal;
       color: #cccccc; }
     .news_widget .input-group input::-webkit-input-placeholder {
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: normal;
       color: #cccccc; }
   .news_widget .input-group .sub-btn {
@@ -3107,7 +3118,7 @@ h6 {
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #b8c9db;
   margin-bottom: 10px; }
 .social_widget .list li {
