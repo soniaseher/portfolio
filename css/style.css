@@ -997,6 +997,14 @@ button:focus {
   padding: 50px 30px;
   margin-top: 50px; }
   @media (max-width: 414px) {
+    .banner-text{
+      font-size: 55px !important;
+      
+    }
+    .sub-title{
+      font-size: 22px !important;
+    line-height: 43px !important;
+    }
     .comments-area {
       padding: 50px 8px; } }
   .comments-area h4 {
@@ -1065,6 +1073,7 @@ button:focus {
         margin-bottom: 1rem; } }
   .comment-form .email {
     padding-right: 0px; }
+
     @media (max-width: 991px) {
       .comment-form .email {
         padding-left: 0px; } }
