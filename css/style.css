@@ -13,7 +13,7 @@
 
 }
 .header_area.navbar_fixed .main_menu{
-  background: #7e0101 !important;
+  background: #22017e !important;
 }
 span.scrol-i {
   color: white;
@@ -108,10 +108,10 @@ button:focus {
    color: #fff;
 }
 .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a{
-  color: #7e0101 !important;
+  color: #22017e !important;
 }
 .main_title h2{
-  color: #7e0101 !important;
+  color: #22017e !important;
 }
 .social_widget .list li a{
   color: #ffffff !important;
@@ -123,26 +123,26 @@ button:focus {
   color: #fff !important;
 }
 .h_gallery_item .g_img_item:before{
-  background: #7e0101 !important;
+  background: #22017e !important;
 }
 .footer_area{
-  background: #7e0101 !important;
+  background: #22017e !important;
 }
 .wel_item i{
   font-size: 24px !important;
-   background: #7e0101 !important;
+   background: #22017e !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   /* background: linear-gradient(to right, #766dff 0%, #86e7ff 70%); */
 }
 .mytabs_area{
-  background: #7e0101 !important;
+  background: #22017e !important;
 }
 .tools_expert .skill_main .skill_item .progress .progress-bar{
-  background: #7e0101 !important;
+  background: #22017e !important;
 }
 .home_banner_area{
-  background: #7e0101 !important;
+  background: #22017e !important;
   margin-bottom: 0px !important;
 }
 .header-t h3{
