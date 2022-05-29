@@ -50,12 +50,21 @@ body {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  color: #777777; }
+  color: #777777;
+/* background-color: #30475E; */
+ }
 .contact-data{
   margin-bottom: 50px;
+  
+  border-bottom: 1px solid #b8c9db;
 }
 .header_area .navbar .nav .nav-item .nav-link{
-  letter-spacing: 3px;
+  letter-spacing: normal;
+  /* height: 80px;
+  transition: 0s ease-in-out; */
+}
+.header_area .nav-link:hover{
+ color: #F05454 !important;
 }
 .main_title p{
   color: black !important;
@@ -74,8 +83,8 @@ body {
   user-select: none;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Elsie Swash Caps', cursive;
-  font-weight: bold; }
+ font-family: 'Sarabun', sans-serif;
+  font-weight: 600; }
 
 button:focus {
   outline: none;
@@ -98,12 +107,28 @@ button:focus {
   width: 100%;
 }
 .header-t{
-  text-align: center;
+  text-align: left;
+}
+.banner-text{
+  font-size: 90px !important;
+  color: white;
+  font-weight: 200;
+}
+.banner-text a{
+  color: #F05454 !important;
+}
+.sub-title{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 34px;
+  font-size: 30px;
+  letter-spacing: normal !important;
 }
 .header-t h6{
    font-size: 70px;
-   font-family: 'Montserrat', sans-serif;
-   text-transform: uppercase;
+  font-family: 'Sarabun', sans-serif;
+   text-transform: capitalize;
    letter-spacing: 2.1px;
    font-weight: normal;
    margin-bottom: 12px;
@@ -113,16 +138,16 @@ button:focus {
   color: #30475E !important;
 }
 .main_title h2{
-  color: #30475E !important;
+  color: #222831 !important;
 }
 .social_widget .list li a{
-  color: #ffffff !important;
+  color: #69afc7 !important;
   font-size: 27px !important;
   transition: all 300ms linear 0s !important;
   margin: 7px !important;
 }
 .main_title h1{
-  color: #fff !important;
+  color: #222831 !important;
 }
 .h_gallery_item .g_img_item:before{
   background: #30475E !important;
@@ -132,13 +157,13 @@ button:focus {
 }
 .wel_item i{
   font-size: 24px !important;
-   background: #30475E !important;
+   /* background: #85a1bd !important; */
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   /* background: linear-gradient(to right, #766dff 0%, #86e7ff 70%); */
 }
 .mytabs_area{
-  background: #30475E !important;
+  background: #ddd !important;
 }
 .tools_expert .skill_main .skill_item .progress .progress-bar{
   background: #30475E !important;
@@ -200,7 +225,7 @@ button:focus {
   max-width: 670px;
   margin: 0px auto 75px; }
   .main_title h2 {
-    font-family: 'Elsie Swash Caps', cursive;
+   font-family: 'Sarabun', sans-serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 15px;
@@ -227,7 +252,7 @@ button:focus {
   .header_area .navbar {
     background: transparent;
     padding: 0px;
-    border-bottom: 1px solid #F05454;
+    border-bottom: 0px solid #F05454;
     border-radius: 0px; }
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
@@ -445,7 +470,7 @@ button:focus {
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
         font-weight: bold;
-        font-family: 'Elsie Swash Caps', cursive;
+       font-family: 'Sarabun', sans-serif;
         line-height: 66px;
         margin-bottom: 15px;
         text-transform: uppercase; }
@@ -485,7 +510,7 @@ button:focus {
     .banner_area .banner_inner .banner_content h2 {
       color: #222222;
       font-size: 48px;
-      font-family: 'Elsie Swash Caps', cursive;
+     font-family: 'Sarabun', sans-serif;
       margin-bottom: 0px;
       font-weight: bold; }
     .banner_area .banner_inner .banner_content .page_link a {
@@ -2570,7 +2595,7 @@ h6 {
 
 .welcome_text h4 {
   color: #222222;
-  font-family: 'Elsie Swash Caps', cursive;
+ font-family: 'Sarabun', sans-serif;
   font-size: 36px;
   margin-bottom: 18px;
   text-transform: uppercase; }
@@ -2580,19 +2605,19 @@ h6 {
   margin-bottom: 40px; }
 
 .wel_item {
-  border: 1px solid #eeeeee;
+   
   padding: 20px 20px;
-  border-radius: 5px; }
+    }
   .wel_item i {
     font-size: 24px;
     background: linear-gradient(to right, #766dff 0%, #86e7ff 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   .wel_item h4 {
-    font-size: 24px;
-    font-family: 'Elsie Swash Caps', cursive;
-    font-weight: bold;
-    color: #222222;
+    font-size: 17px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    color: #b8c9db;
     margin-bottom: 5px;
     margin-top: 10px; }
   .wel_item p {
@@ -2687,7 +2712,7 @@ h6 {
       width: 15px;
       border-radius: 50%;
       display: block;
-      background: rgba(255, 255, 255, 0.2);
+      background: rgb(245 69 69 / 28%);
       position: absolute;
       left: 46%;
       top: 30px;
@@ -2696,7 +2721,7 @@ h6 {
         content: '';
         height: 7px;
         width: 7px;
-        background: #fff;
+        background: #F05454;
         border-radius: 50%;
         position: absolute;
         left: 52%;
@@ -2705,19 +2730,27 @@ h6 {
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
     .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
-      padding-right: 100px; }
+      padding-right: 200px;
+      TEXT-ALIGN: right;
+      position: relative;
+      left: -50px;
+      font-weight: 600;
+      text-transform: uppercase;
+     }
       .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
-        color: rgba(255, 255, 255, 0.75);
+        color: #222831;
         margin-bottom: 0px;
         padding-top: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
-      color: #fff;
+      color: #222831;
       font-size: 21px;
-      text-transform: uppercase;
+      text-transform: capitalize;
       margin-bottom: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
-      color: rgba(255, 255, 255, 0.75);
-      margin-bottom: 0px; }
+      color: #3e3e3e;
+      margin-bottom: 0px; 
+    
+    }
 
 /* End My Tabs Area css
 ============================================================================================ */
@@ -2758,7 +2791,7 @@ h6 {
   .feature_item h4 {
     color: #222222;
     font-size: 21px;
-    font-family: 'Elsie Swash Caps', cursive;
+   font-family: 'Sarabun', sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase; }
@@ -2872,7 +2905,7 @@ h6 {
         font-weight: 500;
         color: #222222;
         transition: all 300ms linear 0s;
-        text-transform: uppercase; }
+        text-transform: capitalize; }
       .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
         color: #766dff; }
 
@@ -2993,7 +3026,7 @@ h6 {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Elsie Swash Caps', cursive;
+   font-family: 'Sarabun', sans-serif;
     margin-bottom: 0px; }
 
 .ab_widget p {
@@ -3065,7 +3098,7 @@ h6 {
   font-size: 14px;
   line-height: 24px;
   font-family: 'Montserrat', sans-serif;
-  color: #777777;
+  color: #b8c9db;
   margin-bottom: 10px; }
 .social_widget .list li {
   margin-right: 17px;
@@ -3138,6 +3171,7 @@ margin: 0px auto 38px !important;
 
 .contact-data {
 	margin-bottom: 23px;
+  border-bottom: 1px solid #b8c9db !important;
 }
 .p_100 {
 	padding-top: 60px;
