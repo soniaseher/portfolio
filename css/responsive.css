@@ -301,6 +301,10 @@
 	
 }
 @media (max-width:575px){
+	.sub-title{
+		font-size: 22px !important;
+	  line-height: 43px !important;
+	  }
 	.top_menu {
 		display: none;
 	}
@@ -353,7 +357,7 @@
 		padding-bottom: 70px;
 	}
 	.main_title h2 {
-		font-size: 25px;
+		font-size: 35px;
 	}
 	/* Elements Area css
 	============================================================================================ */
@@ -417,6 +421,8 @@
 	============================================================================================ */
 	.header_area .navbar-collapse{
 		max-height: 250px;
+		background: #031a16;
+    padding: 35px 40px 50px 40px;
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
